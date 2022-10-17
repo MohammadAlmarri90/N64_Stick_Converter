@@ -1,0 +1,695 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K42 ]
+[d frameptr 16353 ]
+"113 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/adcc.c
+[e E15221 . `uc
+AnalogY 18
+AnalogX 19
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"224 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\main.c
+[e E15541 . `uc
+AnalogY 18
+AnalogX 19
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"107 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"222
+[v _GetX GetX `(us  1 e 2 0 ]
+"227
+[v _GetY GetY `(us  1 e 2 0 ]
+"232
+[v _RotateLeft RotateLeft `(uc  1 e 1 0 ]
+"241
+[v _RotateRight RotateRight `(uc  1 e 1 0 ]
+"250
+[v _Calibration Calibration `(v  1 e 1 0 ]
+"350
+[v _ScaleDown ScaleDown `(uc  1 e 1 0 ]
+"62 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"137
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"275
+[v _ADCC_DisableContinuousConversion ADCC_DisableContinuousConversion `(v  1 e 1 0 ]
+"50 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"59 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"95
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"142
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"165
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"186
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S559 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 NVMIF 1 0 :1:4 
+`uc 1 SCANIF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"3913 C:/Users/super/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f25k42.h
+[u S568 . 1 `S559 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES568  1 e 1 @14752 ]
+"4461
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"4523
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"4585
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"4630
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"4692
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"4725
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"4770
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"4820
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"4959
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5099
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5251
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5302
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5406
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"5486
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @14816 ]
+"5614
+[v _NVMDAT NVMDAT `VEuc  1 e 1 @14819 ]
+[s S467 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 REG 1 0 :2:6 
+]
+"5772
+[s S475 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 REG0 1 0 :1:6 
+`uc 1 REG1 1 0 :1:7 
+]
+[s S479 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG 1 0 :2:6 
+]
+[s S482 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG0 1 0 :1:6 
+`uc 1 NVMREG1 1 0 :1:7 
+]
+[u S486 . 1 `S467 1 . 1 0 `S475 1 . 1 0 `S479 1 . 1 0 `S482 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES486  1 e 1 @14821 ]
+"5832
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @14822 ]
+"7412
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"7474
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"7536
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"7598
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"7660
+[v _INLVLA INLVLA `VEuc  1 e 1 @14916 ]
+"8032
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"8094
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8156
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8218
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8280
+[v _INLVLB INLVLB `VEuc  1 e 1 @14932 ]
+"8652
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"8760
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"8868
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"8930
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"8992
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"9054
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"9116
+[v _INLVLC INLVLC `VEuc  1 e 1 @14948 ]
+"9488
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"9596
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"9704
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"9725
+[v _INLVLE INLVLE `VEuc  1 e 1 @14980 ]
+"27170
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @16094 ]
+"27298
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @16095 ]
+"27433
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @16096 ]
+"27561
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @16097 ]
+"27696
+[v _ADERRL ADERRL `VEuc  1 e 1 @16098 ]
+"27824
+[v _ADERRH ADERRH `VEuc  1 e 1 @16099 ]
+"27959
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @16100 ]
+"28087
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @16101 ]
+"28222
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @16102 ]
+"28350
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @16103 ]
+"28487
+[v _ADACCL ADACCL `VEuc  1 e 1 @16104 ]
+"28615
+[v _ADACCH ADACCH `VEuc  1 e 1 @16105 ]
+"28743
+[v _ADACCU ADACCU `VEuc  1 e 1 @16106 ]
+"28871
+[v _ADCNT ADCNT `VEuc  1 e 1 @16107 ]
+"28999
+[v _ADRPT ADRPT `VEuc  1 e 1 @16108 ]
+"29134
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @16109 ]
+"29262
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @16110 ]
+"29397
+[v _ADRESL ADRESL `VEuc  1 e 1 @16111 ]
+"29525
+[v _ADRESH ADRESH `VEuc  1 e 1 @16112 ]
+"29645
+[v _ADPCH ADPCH `VEuc  1 e 1 @16113 ]
+"29756
+[v _ADACQL ADACQL `VEuc  1 e 1 @16115 ]
+"29884
+[v _ADACQH ADACQH `VEuc  1 e 1 @16116 ]
+"29976
+[v _ADCAP ADCAP `VEuc  1 e 1 @16117 ]
+"30075
+[v _ADPREL ADPREL `VEuc  1 e 1 @16118 ]
+"30203
+[v _ADPREH ADPREH `VEuc  1 e 1 @16119 ]
+"30295
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @16120 ]
+[s S54 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"30333
+[s S62 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S70 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+[s S74 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S76 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[u S80 . 1 `S54 1 . 1 0 `S62 1 . 1 0 `S70 1 . 1 0 `S74 1 . 1 0 `S76 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES80  1 e 1 @16120 ]
+"30413
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @16121 ]
+[s S309 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"30434
+[s S315 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[u S321 . 1 `S309 1 . 1 0 `S315 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES321  1 e 1 @16121 ]
+"30479
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @16122 ]
+[s S170 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"30527
+[s S175 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S184 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S188 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[s S196 . 1 `uc 1 MD 1 0 :3:0 
+]
+[s S198 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+]
+[s S202 . 1 `uc 1 ADMODE 1 0 :3:0 
+]
+[u S204 . 1 `S170 1 . 1 0 `S175 1 . 1 0 `S184 1 . 1 0 `S188 1 . 1 0 `S196 1 . 1 0 `S198 1 . 1 0 `S202 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES204  1 e 1 @16122 ]
+"30657
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @16123 ]
+[s S115 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"30692
+[s S119 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S127 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S131 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S139 . 1 `S115 1 . 1 0 `S119 1 . 1 0 `S127 1 . 1 0 `S131 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES139  1 e 1 @16123 ]
+"30787
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @16124 ]
+[s S249 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 OV 1 0 :1:7 
+]
+"30822
+[s S256 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S265 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S269 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+]
+[u S273 . 1 `S249 1 . 1 0 `S256 1 . 1 0 `S265 1 . 1 0 `S269 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES273  1 e 1 @16124 ]
+"30912
+[v _ADREF ADREF `VEuc  1 e 1 @16125 ]
+"30994
+[v _ADACT ADACT `VEuc  1 e 1 @16126 ]
+"31086
+[v _ADCLK ADCLK `VEuc  1 e 1 @16127 ]
+"43986
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+[s S673 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"44013
+[s S682 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+"44013
+[u S691 . 1 `S673 1 . 1 0 `S682 1 . 1 0 ]
+"44013
+"44013
+[v _LATAbits LATAbits `VES691  1 e 1 @16314 ]
+"44098
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+[s S633 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"44125
+[s S642 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+"44125
+[u S651 . 1 `S633 1 . 1 0 `S642 1 . 1 0 ]
+"44125
+"44125
+[v _LATBbits LATBbits `VES651  1 e 1 @16315 ]
+"44210
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+[s S713 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"44237
+[s S722 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+"44237
+[u S731 . 1 `S713 1 . 1 0 `S722 1 . 1 0 ]
+"44237
+"44237
+[v _LATCbits LATCbits `VES731  1 e 1 @16316 ]
+"44322
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"44384
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"44446
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+[s S521 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"44735
+[s S529 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"44735
+[u S532 . 1 `S521 1 . 1 0 `S529 1 . 1 0 ]
+"44735
+"44735
+[v _INTCON0bits INTCON0bits `VES532  1 e 1 @16338 ]
+"45862
+[v _TABLAT TABLAT `VEuc  1 e 1 @16373 ]
+"45891
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @16374 ]
+"45911
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @16375 ]
+"45931
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @16376 ]
+"107 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"113
+[v main@y y `us  1 a 2 55 ]
+[v main@x x `us  1 a 2 51 ]
+"112
+[v main@ySteps ySteps `s  1 a 2 47 ]
+[v main@xSteps xSteps `s  1 a 2 45 ]
+"117
+[v main@xNeutral16 xNeutral16 `us  1 a 2 41 ]
+"113
+[v main@yOld yOld `us  1 a 2 39 ]
+[v main@xOld xOld `us  1 a 2 37 ]
+"117
+[v main@yNeutral16 yNeutral16 `us  1 a 2 35 ]
+"118
+[v main@maxRange maxRange `uc  1 a 1 57 ]
+"114
+[v main@yNeutral8 yNeutral8 `uc  1 a 1 54 ]
+[v main@xNeutral8 xNeutral8 `uc  1 a 1 53 ]
+"116
+[v main@yWheel yWheel `uc  1 a 1 50 ]
+"115
+[v main@xWheel xWheel `uc  1 a 1 49 ]
+"118
+[v main@yFactor yFactor `uc  1 a 1 44 ]
+[v main@xFactor xFactor `uc  1 a 1 43 ]
+"220
+} 0
+"350
+[v _ScaleDown ScaleDown `(uc  1 e 1 0 ]
+{
+[v ScaleDown@raw12 raw12 `us  1 p 2 6 ]
+[v ScaleDown@c c `uc  1 p 1 8 ]
+"352
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"50 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"55 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"122
+} 0
+"58 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"62 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"111
+} 0
+"241 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\main.c
+[v _RotateRight RotateRight `(uc  1 e 1 0 ]
+{
+[v RotateRight@cData cData `uc  1 a 1 wreg ]
+"242
+[v RotateRight@result result `uc  1 a 1 0 ]
+"241
+[v RotateRight@cData cData `uc  1 a 1 wreg ]
+"243
+[v RotateRight@cData cData `uc  1 a 1 1 ]
+"248
+} 0
+"232
+[v _RotateLeft RotateLeft `(uc  1 e 1 0 ]
+{
+[v RotateLeft@cData cData `uc  1 a 1 wreg ]
+"233
+[v RotateLeft@result result `uc  1 a 1 0 ]
+"232
+[v RotateLeft@cData cData `uc  1 a 1 wreg ]
+"234
+[v RotateLeft@cData cData `uc  1 a 1 1 ]
+"239
+} 0
+"186 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 wreg ]
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 wreg ]
+"188
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 0 ]
+"195
+} 0
+"250 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\main.c
+[v _Calibration Calibration `(v  1 e 1 0 ]
+{
+"252
+[v Calibration@temp temp `us  1 a 2 29 ]
+"253
+[v Calibration@yNeutral16 yNeutral16 `us  1 a 2 27 ]
+[v Calibration@xNeutral16 xNeutral16 `us  1 a 2 25 ]
+"254
+[v Calibration@yMax yMax `us  1 a 2 23 ]
+[v Calibration@yMin yMin `us  1 a 2 21 ]
+[v Calibration@xMax xMax `us  1 a 2 19 ]
+[v Calibration@xMin xMin `us  1 a 2 17 ]
+"256
+[v Calibration@yFactor yFactor `us  1 a 2 15 ]
+[v Calibration@xFactor xFactor `us  1 a 2 13 ]
+"255
+[v Calibration@counter counter `us  1 a 2 11 ]
+"347
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"227 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\main.c
+[v _GetY GetY `(us  1 e 2 0 ]
+{
+"230
+} 0
+"222
+[v _GetX GetX `(us  1 e 2 0 ]
+{
+"225
+} 0
+"137 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E15221  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E15221  1 a 1 wreg ]
+"140
+[v ADCC_GetSingleConversion@channel channel `E15221  1 a 1 4 ]
+"160
+} 0
+"165 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 wreg ]
+"167
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"165
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 wreg ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 0 ]
+"167
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 1 ]
+"184
+} 0
+"275 C:\Users\super\Documents\STM8\N64_Stick_Converter18.X\mcc_generated_files/adcc.c
+[v _ADCC_DisableContinuousConversion ADCC_DisableContinuousConversion `(v  1 e 1 0 ]
+{
+"279
+} 0
